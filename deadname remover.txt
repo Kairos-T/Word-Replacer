@@ -1,9 +1,0 @@
-def replace_deadname(text, deadname, current_name):
-  return text.replace(deadname, current_name)
-
-text = "H is a student from Commonwealth Secondary"
-deadname = "H"
-current_name = "Kairos"
-
-replaced_text = replace_deadname(text, deadname, current_name)
-print(replaced_text)
