@@ -1,4 +1,3 @@
-// Define the function to replace deadnames
 function removeDeadnames() {
   const elements = document.getElementsByTagName('*');
 
@@ -23,7 +22,6 @@ function removeDeadnames() {
   }
 }
 
-// Run the removeDeadnames function when the DOM is ready
 document.addEventListener('DOMContentLoaded', function () {
   removeDeadnames();
 });
